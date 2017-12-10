@@ -1,0 +1,6 @@
+git status
+git add filea.txt
+git commit -m 'P1: This is a test.'
+git log --pretty=format:"%h - %an, %ar : %s"
+git branch --all
+git remote -v
