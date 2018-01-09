@@ -4,3 +4,12 @@ git commit -m 'P1: This is a test.'
 git log --pretty=format:"%h - %an, %ar : %s"
 git branch --all
 git remote -v
+
+----------------
+1. git checkout feature/xxx //switch to branch feature
+2. git merge develop //merge develop in feature
+3. //resolve file conflict
+4. git add *
+5. git commit -m 'XXX-251: Resolving conflicts merge to develop action.'
+6. git push origin feature/XXX
+----------------
